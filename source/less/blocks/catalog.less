@@ -1,15 +1,18 @@
 .catalog__intro {
-  width: 100%;
+  width: 320px;
+  margin: 0 auto;
   padding: 0 20px 36px;
   text-align: center;
   box-sizing: border-box;
   border-bottom: 1px solid #e5e5e5;
 
   @media (min-width: @tablet-width) {
+    width: 768px;
     padding: 57px 155px 81px;
   }
 
   @media (min-width: @desktop-width) {
+    width: 1200px;
     padding: 90px 370px 88px;
   }
 }
@@ -301,8 +304,16 @@
 
 .catalog__video-play {
   position: relative;
-  max-width: 800px;
+  width: 280px;
   margin: 0 auto;
+
+  @media (min-width: @tablet-width) {
+    width: 647px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 800px;
+  }
 }
 
 .catalog__video-intro {
